@@ -5,7 +5,6 @@ phases:
     commands:
       - ls
       - ls prebuilt/
-      - ./gradle --version
       - chmod +x ./gradle
       - ./gradle assembleDebug
 artifacts:
