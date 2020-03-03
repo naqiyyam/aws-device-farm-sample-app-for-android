@@ -4,11 +4,12 @@ phases:
   build:
     commands:
       - ls
+      - ls prebuilt/
       - ./gradlew --version
       - ./gradle --version
       - chmod +x ./gradle
       - ./gradle assembleDebug
 artifacts:
   files:
-     - './app-debug.apk'
+     - './prebuilt/app-debug.apk'
   discard-paths: yes
