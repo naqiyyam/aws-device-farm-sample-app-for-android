@@ -3,8 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - chmod +x ./gradle
-      - gradle assembleDebug
+      - ls
 artifacts:
   files:
      - './prebuilt/app-debug.apk'
